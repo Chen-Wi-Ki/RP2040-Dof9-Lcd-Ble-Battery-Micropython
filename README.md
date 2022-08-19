@@ -1,5 +1,5 @@
 # RP2040-Dof9-Lcd-Ble-Battery-Micropython
-本程式由Micropython編寫，主要是9軸感測器訊號處理與LCD顯示及藍芽傳輸之功能。
+本程式由Micropython編寫，主要是9軸感測器訊號處理與LCD顯示及藍芽傳輸之功能。Micropython編寫前需要先掛入[UF2](http://www.micropython.org/download/rp2-pico/)文件，這是它們特有的一種bootloader方法，另外我的編成環境是[Thonny IDE](https://thonny.org/)，基礎教學網路上都找得到本專案就不另外贅述了。
 
 ## 模組堆疊方案
 堆疊的層順序除了頂層LCD模組外其他模組並沒有特別順序要求,按照正確插Pin的方向去疊起來就可以了,另外LCD上3顆按鈕會被其他模組的功能佔用導致它們實際上是無作用的。
